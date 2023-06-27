@@ -304,7 +304,7 @@ function CheckForVerticalCollison(){
     }
     if(collision){
 
-        if(startY <= 0){
+        if(startY <= 2){
             winOrLose = "Game Over";
             ctx.fillStyle = 'white';
             ctx.fillRect(310, 242, 140, 30);
